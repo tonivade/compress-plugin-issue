@@ -1,5 +1,5 @@
 # to reproduce the issue
 
 ```sh
-./gradlew extractUpx
+./gradlew --configuration-cache extractUpx
 ```
