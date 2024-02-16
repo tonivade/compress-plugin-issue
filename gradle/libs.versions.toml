@@ -1,0 +1,7 @@
+[versions]
+compressVersion = "8.6"
+downloadVersion = "5.5.0"
+
+[plugins]
+compress = { id = "io.freefair.compress.trees", version.ref = "compressVersion" }
+download = { id = "de.undercouch.download", version.ref = "downloadVersion" }
